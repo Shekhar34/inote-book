@@ -6,7 +6,6 @@ connectToMongo();
 const app = express()
 const port = 3000
 
-
 //to send data in request body
 app.use(express.json());
 
